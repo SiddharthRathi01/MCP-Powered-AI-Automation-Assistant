@@ -327,6 +327,18 @@ The MCP Server can expose multiple capabilities through a single MCP endpoint.
 
 The architecture allows additional tools to be introduced as the project evolves.
 
+## Testing
+
+The workflows can be tested in stages:
+
+1. Test the MCP Server and its exposed tools.
+2. Verify that the MCP Client can connect to the MCP Server.
+3. Verify that the AI Agent can discover the available tools.
+4. Test GitHub MCP functionality.
+5. Test Gmail operations.
+6. Test Google Drive operations.
+7. Test complete end-to-end requests through the AI Agent.
+
 ## Project Objective
 
 The objective of this project is to demonstrate a practical architecture for building tool-enabled AI agents using n8n and the Model Context Protocol.
